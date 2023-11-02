@@ -1,0 +1,254 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+  /* Style for the black background and the header section */
+  header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+/* Style for the logo (portrait orientation) */
+.logo {
+    max-height: 100%;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+/* Style for the hero image (landscape orientation) */
+.hero {
+ 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.hero img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}
+.custom-margin {
+  margin-bottom: 10px;
+}
+
+.sellIt {
+  padding: 50px;
+}
+
+.topSection {
+  background: linear-gradient(0deg, black, 80%, #FF991B);
+  color: white;
+}
+
+.middleSection {
+  background: black;
+}
+
+.bottomSection {
+  background: linear-gradient(0deg, #FF991B, 55%, black);
+  padding-bottom: 60px;
+
+}
+
+.bigFoot {
+  background: linear-gradient(0deg, #FF991B, 100%, black);
+}
+
+
+.jumboBoy {
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.cardKid {
+  padding-bottom: 64px;
+}
+
+#getIt {
+  color: white;
+  font-family: 'Graduate', serif;
+  font-size: 36px;
+
+}
+
+#getItFoot {
+  color: white;
+  font-family: 'Graduate', serif;
+  font-size: 24px;
+}
+
+.card {
+
+}
+
+#coolFont {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+  font-family: 'Graduate', serif;
+
+}
+
+.btn-success {
+  font-family: 'Graduate', serif;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.custom-card {
+  width: 20rem; /* Adjust the width as needed */
+  margin: 20px; /* Add spacing around the cards as needed */
+  border-radius: 34px;
+  background: #222121; /* Set the background color to grey */
+  border-color: #41A23E;
+}
+
+.card-img-top {
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+}
+
+.custom-card .card-img-top {
+  position: relative;
+  height: 200px;
+
+}
+
+.custom-card .card-title {
+  position: absolute;
+  top: 30%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+  color: #fff;
+text-align: center;
+font-weight: bold;
+width: 100%;
+}
+
+.custom-card .card-button {
+  margin-top: auto !important; /* Push the button to the bottom of the card */
+}
+
+
+.custom-card .card-body {
+  justify-content: space-between !important;
+}
+
+.custom-card .btn {
+  background: #41A23E; /* Customize button background color */
+  color: #fff; /* Customize button text color */
+  border-color: #41A23E;
+
+}
+
+.custom-card .btn:hover {
+  background: #388135; /* Customize button background color on hover */
+  border-color: #388135 ;
+}
+
+.custom-card .card-text {
+  color: white;
+  font-size: 16px;
+}
+
+
+.custom-cardTwo {
+  width: 20rem; /* Adjust the width as needed */
+  margin: 20px; /* Add spacing around the cards as needed */
+  border-radius: 34px;
+  background: #222121; /* Set the background color to grey */
+  border-color: #1865F2; /* Customize button background color on hover */
+  
+}
+
+
+.custom-cardTwo .card-img-top {
+  position: relative;
+  height: 200px;
+
+}
+
+.custom-cardTwo .card-title {
+  position: absolute;
+  top: 30%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+  color: #fff;
+text-align: center;
+font-weight: bold;
+width: 100%;
+}
+
+.custom-cardTwo .btn {
+  background: #1865F2; /* Customize button background color */
+  color: #fff; /* Customize button text color */
+
+}
+
+.custom-cardTwo .btn:hover {
+  background: #0056b3; /* Customize button background color on hover */
+  border-color: #0056b3;
+}
+
+.custom-cardTwo .card-text {
+  color: white;
+}
+
+
+
+
+
+.custom-cardThree {
+  width: 20rem; /* Adjust the width as needed */
+  margin: 20px; /* Add spacing around the cards as needed */
+  border-radius: 34px;
+  background: #222121; /* Set the background color to grey */
+  border-color: #E12C3A; /* Customize button background color on hover */
+}
+
+
+.custom-cardThree .card-img-top {
+  position: relative;
+  height: 200px;
+
+}
+
+.custom-cardThree .card-title {
+  position: absolute;
+  top: 30%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+  color: #fff;
+text-align: center;
+font-weight: bold;
+width: 100%;
+}
+
+.custom-cardThree .btn {
+  background: #E12C3A; /* Customize button background color */
+  color: #fff; /* Customize button text color */
+  border-color: #a0202b;
+}
+
+.custom-cardThree .btn:hover {
+  background: #a0202b; /* Customize button background color on hover */
+  border-color: #a0202b;
+}
+
+.custom-cardThree .card-text {
+  color: white;
+}
+
+.getTheApp {
+  padding-bottom: 20px;
+}
+
+
